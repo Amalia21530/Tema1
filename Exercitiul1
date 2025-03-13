@@ -1,0 +1,27 @@
+package Tema1;
+
+public class ex1 {
+	
+	    public static void main(String[] args) {
+	        int nr = 4;  
+
+	        switch (nr) {
+	            case 1:
+	                System.out.println("Unu");
+	                break;  
+	            case 2:
+	                System.out.println("Doi");
+	                break;
+	            case 3:
+	                System.out.println("Trei");
+	                break;
+	            case 4:
+	                System.out.println("Patru");
+	                break;
+	            case 5:
+	                System.out.println("Cinci");
+	                break;
+	            default:
+	                System.out.println("Invalid");
+	        }
+	    }
