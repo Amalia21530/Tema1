@@ -25,3 +25,24 @@ public class ex1 {
 	                System.out.println("Invalid");
 	        }
 	    }
+{
+
+	int nr = 8 ;
+	
+	if (nr>5)
+	{
+		System.out.println("Admis");
+	}
+	
+	if (nr<5)
+	{
+		System.out.println("Respins");
+	}
+	
+	if (nr>10 || nr<0)
+	{
+		System.out.println("Invalid");
+	}
+}
+}
+
