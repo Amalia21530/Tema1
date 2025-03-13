@@ -1,0 +1,25 @@
+package Tema1;
+
+import java.util.Scanner;
+
+public class Ex7 {
+
+	public static void main(String[] args)
+	{
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Introdu valoarea lui n: ");
+		int n=scanner.nextInt();
+		double s=0;
+		for(int i=1;i<=n;i++)
+		{
+			System.out.print("Introduceti numarul: ");
+			s+=scanner.nextDouble();
+		}
+		
+		double media=s/n;
+		System.out.println("Media numerelor este: "+media);
+		scanner.close();
+		
+			}
+
+		}
