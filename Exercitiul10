@@ -1,0 +1,25 @@
+package Tema1;
+
+public class Ex10 {
+
+	public static void main(String[] args) {
+		int n=1001;
+		while(true)
+		{
+			boolean prim=true;
+			for(int d=2;d*d<=n;d++)
+				if(n%d==0)
+				{
+					prim=false;
+					break;
+				}
+			if(prim)
+			{
+				System.out.println("Cel mai mic numar prim mai mare decat 1000: "+n);
+				break;
+			}
+			n++;
+		}
+	}
+
+}
