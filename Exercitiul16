@@ -1,0 +1,19 @@
+package Tema1;
+
+import java.util.Scanner;
+
+public class Ex16 {
+	
+	public static void main(String[] args) {
+		
+	Scanner scanner = new Scanner(System.in);
+
+	System.out.print("Introduce un numar: ");
+	int n = scanner.nextInt();
+	
+	if (n < 0) {
+		n = -n;
+		        }
+	}
+
+}
